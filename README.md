@@ -12,6 +12,13 @@ composer require handlesocial/laravel-handle-blade-directives
 ## Usage
 
 ### @canany
+extends @can by enabling multiple pipe-delimited arguments to check.
+
+```blade
+@canany('this|that')
+   This will be echoed if either/or is true
+@endcanany
+```
 
 
 ## Contributing
