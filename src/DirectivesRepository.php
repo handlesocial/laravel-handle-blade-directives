@@ -1,6 +1,6 @@
 <?php
 
-namespace Handlesocial\HandleBladeDirectives;
+namespace Handlesocial\BladeDirectives;
 
 use Illuminate\Support\Facades\Blade;
 
