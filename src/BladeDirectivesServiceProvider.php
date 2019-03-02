@@ -1,6 +1,6 @@
 <?php
 
-namespace Handle\BladeDirectives;
+namespace Handlesocial\BladeDirectives;
 
 use Illuminate\Support\ServiceProvider;
 
