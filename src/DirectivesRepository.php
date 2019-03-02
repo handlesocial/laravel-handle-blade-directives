@@ -4,7 +4,7 @@ namespace Handlesocial\BladeDirectives;
 
 use Illuminate\Support\Facades\Blade;
 
-class HandleDirectivesRepository
+class DirectivesRepository
 {
     /**
      * Register directives.
