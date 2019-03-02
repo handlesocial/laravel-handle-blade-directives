@@ -1,0 +1,53 @@
+{
+    "name": "handlesocial/laravel-handle-blade-directives",
+    "description": "Handy Blade directives by HandleSocial",
+    "keywords": [
+        "handlesocial",
+        "laravel-handle-blade-directives",
+        "blade-directives",
+        "laravel",
+        "blade"
+    ],
+    "homepage": "https://github.com/handlesocial/laravel-handle-blade-directives",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jayenne Montana",
+            "email": "jayenne@handlesocial.media",
+            "homepage": "https://handlesocial.media",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "laravel/framework": "^5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0",
+        "orchestra/testbench": "~3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Handlesocial\\BladeDirectives\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Handlesocial\\BladeDirectives\\Test\\": "tests",
+            "Handlesocial\\BladeDirectives\\Test\\App\\": "tests/laravel/app"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Handlesocial\\BladeDirectives\\HandleBladeDirectivesServiceProvider"
+            ]
+        }
+    }
+}
